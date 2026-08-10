@@ -1,5 +1,5 @@
 """
-Week 2 - Activity 3:
+Week 2 - Activity 3: Data type with description
 -------------------------------------------------------------
 OOP project to collect personal information for students(full name, age, address, student id) from user input,
 then sort by age and display the results. Works for 70 students or an unknown number of students.
