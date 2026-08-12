@@ -10,7 +10,7 @@ class Temperature_Converter():
     def __init__(self, temp: str):
         self.temp = temp
         self.temp_prefix = temp[0] if temp else ''
-        self.temp_number = temp[1:] if len(temp) > 1 else ''
+        self.temp_number = temp[1:] if len(temp) > 1 else '' #split user input to get rest of the value after prefix
 
     def is_valid(self):
         if self.temp_prefix not in ('F', 'C'):
