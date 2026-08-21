@@ -5,25 +5,6 @@ Design ER diagram and develop a database for the money exchange project (with at
 In a README file, clearly describe how many tables you have created and justify why each table is necessary. 
 Project scope: The Money Exchange System should allow a exchange business to manage customers, currencies, 
 exchange rates, and currency exchange transactions.
-
-README
-======
-
-This project uses four tables:
-
-1. Customers - Stores customer names and contact details so customers can be
-    identified and managed.
-2. Currencies - Stores currency codes, names, and symbols. A separate table
-    prevents currency information from being repeated in every transaction.
-3. ExchangeRates - Stores conversion rates between currencies and the dates
-    on which they were added, allowing rate history to be maintained.
-4. Transactions - Records each customer's exchange, including the currencies,
-    amount, and date. This table represents the main business activity.
-
-These four tables are necessary because they separate customer data, reusable
-currency data, exchange-rate history, and transaction records. This reduces
-duplication, supports relationships between entities, and makes the database
-easier to maintain and query.
 '''
 
 from datetime import date
